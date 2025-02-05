@@ -103,7 +103,7 @@ impl Reflect for Transform {
         }
     }
     
-    // ... implement other reflection methods
+    // TODO: implement other reflection methods
 }
 ```
 
@@ -214,7 +214,6 @@ at your option.
 
 ## Acknowledgments 🙏
 
-- Inspired by game engine architecture patterns
 - Built with and for the Rust community
 - Special thanks to all contributors
 
