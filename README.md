@@ -1,6 +1,6 @@
 # Dynasty 🏰
 
-[![Crates.io](https://img.shields.io/crates/v/dynasty.svg)](https://crates.io/crates/dynasty)
+[![Crates.io](https://img.shields.io/crates/v/dynasty-rs.svg)](https://crates.io/crates/dynasty-rs)
 [![Documentation](https://docs.rs/dynasty/badge.svg)](https://docs.rs/dynasty)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](README.md#license)
 [![Build Status](https://github.com/tristanpoland/dynasty/workflows/CI/badge.svg)](https://github.com/tristanpoland/dynasty/actions)
