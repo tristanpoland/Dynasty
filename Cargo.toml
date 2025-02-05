@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "dynasty",
+    "dynasty-macros"
+]
+
+resolver = "2"

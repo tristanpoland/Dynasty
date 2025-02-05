@@ -1,0 +1,16 @@
+[package]
+name = "dynasty-macros"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tristan J. Poland"]
+description = "Procedural macros for the Dynasty class system"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tristanpoland/dynasty"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["full", "extra-traits"] }
+quote = "1.0"
+proc-macro2 = "1.0"

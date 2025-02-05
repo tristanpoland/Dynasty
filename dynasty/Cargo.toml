@@ -1,0 +1,25 @@
+[package]
+name = "dynasty"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tristan J. Poland"]
+description = "A powerful class inheritance system for Rust game engines"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tristanpoland/dynasty"
+documentation = "https://docs.rs/dynasty"
+readme = "../README.md"
+keywords = ["gamedev", "inheritance", "class", "hierarchy", "engine"]
+categories = ["game-engines", "game-development"]
+
+[dependencies]
+dynasty-macros = { path = "../dynasty-macros", version = "0.1.0" }
+once_cell = "1.18"
+thiserror = "2.0.11"
+inventory = "0.3"
+serde = { version = "1.0", features = ["derive"], optional = true }
+uuid = { version = "1.6", features = ["v4"] }
+
+[features]
+default = ["reflection"]
+reflection = []
+serialization = ["serde"]
